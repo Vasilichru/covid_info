@@ -17,5 +17,5 @@ def get_covid_info():
 
     elem = random.choice(a)
 
-    info = 'Country:' +  str(elem['Country']) + '    ' +  'TotalConfirmed:' + str(elem['TotalConfirmed']) + '    ' +  'NewConfirmed:' +  str(elem['NewConfirmed']>
+    info = 'Country:' +  str(elem['Country']) + '    ' +  'TotalConfirmed:' + str(elem['TotalConfirmed']) + '    ' +  'NewConfirmed:' +  str(elem['NewConfirmed'])
     return info
